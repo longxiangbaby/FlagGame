@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="isometric" width="30" height="30" tilewidth="100" tileheight="50">
+ <tileset firstgid="1" name="map_image" tilewidth="100" tileheight="100">
+  <image source="map_image.png" width="1024" height="1024"/>
+ </tileset>
+ <layer name="ground" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztzqENADAMA7BIw/n/3ZLykUkjBuZukgLAI2f9fgAAdwM7ry2h
+  </data>
+ </layer>
+ <layer name="land" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzNlsENgDAIRblYtQN45uwQDuHZ/edQkx7QpNpPkfoSU6LihwIqkZ6+wheFAX00rvBw3jNHyVe6S8ZuCdM1FgZ8B6Vmq7qWwC/X0Zy/qnOksn2866PxyHw7ys/rHev7ctTM1JhWpKZR+Gmw6IeY1lXpXxO/B7In/vKe3Aye4b3vQ8Z+wiJPK9BYzl7pDLVL9YOhLsJfZsMKPo6pge45G4Hqv0UofdLW/ke1gp31ZmF718iTHbUQBxQ=
+  </data>
+ </layer>
+ <layer name="lake" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzFVlsOwCAI8wbq7n/Y/RrCm6L9WTKBUkFxDBy+oP0Gcmv8HM8ybKNarPgSn8Qf9Tvz3UwcCWvoWifDU92bKtB90wWpdt6aRmPRWnnhOR+ZnKt4wdkB64x18p7fjG+XfUeMil40rBy4dWTeN/eg2t+oXF/PJYqsrojfC80IzohG2l8dmivnETnnLXDaM+8h1F0r5WGte6HV2nPfV96K0feUxqXtzST/vf3dMS9+coYFDQ==
+  </data>
+ </layer>
+ <objectgroup name="object" width="30" height="30">
+  <object name="长安城" type="1" x="800" y="650" width="50" height="50">
+   <properties>
+    <property name="camp" value="0"/>
+    <property name="hero" value="30016,50|30018,50|30025,50|30004,10|30020,10|30002,10"/>
+    <property name="id" value="10001"/>
+    <property name="level" value="3"/>
+    <property name="xpos" value="16"/>
+    <property name="ypos" value="13"/>
+   </properties>
+  </object>
+  <object name="咸阳城" type="1" x="200" y="1150" width="50" height="50">
+   <properties>
+    <property name="camp" value="3"/>
+    <property name="hero" value="30004,50|30018,50|30025,50|30007,10|30020,10|30002,10"/>
+    <property name="id" value="10002"/>
+    <property name="level" value="2"/>
+    <property name="xpos" value="4"/>
+    <property name="ypos" value="23"/>
+   </properties>
+  </object>
+  <object name="许昌城" type="1" x="700" y="1150" width="50" height="50">
+   <properties>
+    <property name="camp" value="0"/>
+    <property name="hero" value="30001,10|30002,10|30003,10|30004,10|30020,10|30002,10"/>
+    <property name="id" value="10003"/>
+    <property name="level" value="3"/>
+    <property name="xpos" value="14"/>
+    <property name="ypos" value="23"/>
+   </properties>
+  </object>
+  <object name="邯郸城" type="1" x="550" y="900" width="50" height="50">
+   <properties>
+    <property name="camp" value="0"/>
+    <property name="hero" value="30002,50|30018,50|30025,50|30007,10|30020,10|30002,10"/>
+    <property name="id" value="10004"/>
+    <property name="level" value="1"/>
+    <property name="xpos" value="11"/>
+    <property name="ypos" value="18"/>
+   </properties>
+  </object>
+  <object name="幽州城" type="1" x="1300" y="850" width="50" height="50">
+   <properties>
+    <property name="camp" value="0"/>
+    <property name="hero" value="30030,10|30002,10|30003,10|30004,10|30020,10|30002,10"/>
+    <property name="id" value="1005"/>
+    <property name="level" value="1"/>
+    <property name="xpos" value="26"/>
+    <property name="ypos" value="17"/>
+   </properties>
+  </object>
+  <object name="宛城" type="1" x="1100" y="1150" width="50" height="50">
+   <properties>
+    <property name="camp" value="2"/>
+    <property name="hero" value="30002,10|30015,10|30003,10|30004,10|30020,10|30002,10"/>
+    <property name="id" value="10006"/>
+    <property name="level" value="1"/>
+    <property name="xpos" value="22"/>
+    <property name="ypos" value="23"/>
+   </properties>
+  </object>
+  <object name="襄阳城" type="1" x="250" y="450" width="50" height="50">
+   <properties>
+    <property name="camp" value="0"/>
+    <property name="hero" value="30020,10|30022,10|30003,10|30018,10|30020,10|30002,10"/>
+    <property name="id" value="10007"/>
+    <property name="level" value="2"/>
+    <property name="xpos" value="5"/>
+    <property name="ypos" value="9"/>
+   </properties>
+  </object>
+  <object name="建邺城" type="1" x="450" y="300" width="50" height="50">
+   <properties>
+    <property name="camp" value="0"/>
+    <property name="hero" value="30009,10|30010,10|30003,10|30018,10|30020,10|30002,10"/>
+    <property name="id" value="10008"/>
+    <property name="level" value="3"/>
+    <property name="xpos" value="9"/>
+    <property name="ypos" value="6"/>
+   </properties>
+  </object>
+  <object name="洛阳城" type="1" x="750" y="350" width="50" height="50">
+   <properties>
+    <property name="camp" value="0"/>
+    <property name="hero" value="30013,10|30023,10|30003,10|30018,10|30020,10|30002,10"/>
+    <property name="id" value="10009"/>
+    <property name="level" value="3"/>
+    <property name="xpos" value="15"/>
+    <property name="ypos" value="7"/>
+   </properties>
+  </object>
+  <object name="金陵城" type="1" x="1250" y="400" width="50" height="50">
+   <properties>
+    <property name="camp" value="0"/>
+    <property name="hero" value="30001,10|30002,10|30003,10|30004,10|30020,10|30002,10"/>
+    <property name="id" value="10010"/>
+    <property name="level" value="1"/>
+    <property name="xpos" value="25"/>
+    <property name="ypos" value="8"/>
+   </properties>
+  </object>
+  <object name="益州城" type="1" x="150" y="150" width="50" height="50">
+   <properties>
+    <property name="camp" value="4"/>
+    <property name="hero" value="30004,10|30002,10|30003,10|30018,10|30020,10|30002,10"/>
+    <property name="id" value="10011"/>
+    <property name="level" value="2"/>
+    <property name="xpos" value="3"/>
+    <property name="ypos" value="3"/>
+   </properties>
+  </object>
+  <object name="商城" type="3" x="1350" y="1350" width="50" height="50">
+   <properties>
+    <property name="camp" value="0"/>
+    <property name="hero" value=""/>
+    <property name="id" value="10016"/>
+    <property name="level" value="7"/>
+    <property name="xpos" value="27"/>
+    <property name="ypos" value="27"/>
+   </properties>
+  </object>
+  <object name="龙城" type="2" x="1050" y="750" width="50" height="50">
+   <properties>
+    <property name="camp" value="0"/>
+    <property name="hero" value="30001,10|30002,10|30003,10|30004,10|30020,10|30002,10*30001,10|30002,10|30003,10|30004,10|30020,10|30002,10*30001,10|30002,10|30003,10|30004,10|30020,10|30002,10"/>
+    <property name="id" value="10014"/>
+    <property name="level" value="13"/>
+    <property name="xpos" value="21"/>
+    <property name="ypos" value="15"/>
+   </properties>
+  </object>
+  <object name="虎城" type="2" x="1300" y="50" width="50" height="50">
+   <properties>
+    <property name="camp" value="0"/>
+    <property name="hero" value="30001,10|30002,10|30003,10|30004,10|30020,10|30002,10*30001,10|30002,10|30003,10|30004,10|30020,10|30002,10*30001,10|30002,10|30003,10|30004,10|30020,10|30002,10"/>
+    <property name="id" value="10015"/>
+    <property name="level" value="8"/>
+    <property name="xpos" value="26"/>
+    <property name="ypos" value="1"/>
+   </properties>
+  </object>
+  <object name="荆州城" type="1" x="950" y="100" width="50" height="50">
+   <properties>
+    <property name="camp" value="1"/>
+    <property name="hero" value="30002,10|30003,10|30004,10|30020,10|30002,10"/>
+    <property name="id" value="10012"/>
+    <property name="level" value="2"/>
+    <property name="xpos" value="19"/>
+    <property name="ypos" value="2"/>
+   </properties>
+  </object>
+  <object name="卧龙城" type="4" x="700" y="50" width="50" height="50">
+   <properties>
+    <property name="camp" value="0"/>
+    <property name="hero" value=""/>
+    <property name="id" value="10013"/>
+    <property name="level" value="13"/>
+    <property name="xpos" value="14"/>
+    <property name="ypos" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer name="tree" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzNVjkSgzAMFJShpk6dR6Smpub//0jlGbORbUmsQrYxeGytbktE5C1n7PC9K/sWHPC/Oe/fhaWxv5J5ZsfZq9wern9CT+9WnLR7E0EXjbOnQwafBxabIzXp7QPZsOT2yI89P9T2bo2zzPoq8tHP1lix+9QdqG1l+Jb19mi+fchZx5H/0Z7R+VbuvpS9FeQx31x2Xh3yPSOwMMGagWfwHsbEmt/WWM6wZs1d7JlCkzfq25acjLxXyPvr+SmaWwW1vnX8PTVcZPR0WYBr5KerdjHBiGn2/OcB1n0EH7JTCfg=
+  </data>
+ </layer>
+ <layer name="hill" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzdls0OgzAIx30Ik6n1srNnzz7Eznv/11hNbEL+6QcUWrf9EpISKSDQpsNwP46sx0Yxlg4xkKeXzcs78m0D/XVJiVCrsH8CX7FYUjA3rR8rfz2YvRxEnwR7d4bNL9VCA2eWKY/KOJyap0idlX/o0VzQKZIZP9HUPAXNT5qPpF+5OrSK+Y3kzlvtWcxhUS93yWrgy5KjbMJCOvcauP0IdviPLe4AjIlY1dnKD8WBvkStZNScmR73Ust3XWqupLG080nfBmFeaE8xn1R+K6xLd5f03WTJWbMPT8kMKA==
+  </data>
+ </layer>
+</map>
