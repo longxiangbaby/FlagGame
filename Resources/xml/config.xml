@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<string name="soldiers">战士</string>
+	<string name="archers">弓手</string>
+	<string name="mage">法师</string>
+	<string name="gameName">游侠联盟</string>
+</root>
